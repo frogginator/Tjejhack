@@ -1,0 +1,17 @@
+.colorstyle{
+	background-color: #ff0000;
+}
+.headerimg{
+	max-width: 50px;
+	max-height: 50px;
+}
+.nyhetsflode{
+	width: 50%;
+	margin: auto;
+	height: 500px;
+	background-color: #999966;
+	border-radius: 30px;
+	
+	
+
+}
