@@ -1,10 +1,10 @@
 var i = 0;
 var ratt = 0;
-var städer = ["x","1","2","2","1","x","1","rom","stockholm","tokyo"]
+var städer = ["x","1","2","2","1","x","1","1","1","x"]
 
 function bildByte() {
 	
-	var bilder = ["img/2.jpg","img/3.jpg","img/4.jpg","img/5.jpg","img/6.jpg","img/7.jpg","img/8.jpg","img/9.jpg","img/10.jpg"];
+	var bilder = ["img/2.jpg","img/3.jpg","img/4.jpg","img/5.jpg","img/6.jpg","img/7.jpg","img/8.jpg","img/9.jpg","img/10.jpg", "img/11.jpg"];
 	document.getElementById("stad").src = bilder[i];
 	i++;
 	rattSvar();
@@ -25,10 +25,10 @@ function rattSvar() {
 
 
 	if (ratt <10 && i >=10) {
-		document.getElementById("färdig").innerHTML = "du kan inte dina huvudstäder så bra :("
+		document.getElementById("färdig").innerHTML = "du fick inte alla rätt, bättre lycka nästa gång!"
 	}
 	else if (ratt == 10 && i >=10) {
-		document.getElementById("färdig").innerHTML = "Du kan alla huvudstäder i denna quizen!"
+		document.getElementById("färdig").innerHTML = "Du klarade det felfritt!"
 	}
 }
 

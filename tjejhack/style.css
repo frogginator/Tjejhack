@@ -1,5 +1,6 @@
 .colorstyle{
-	background-color: #ff0000;
+	background-color: #ff0033;
+	color: black;
 }
 .headerimg{
 	max-width: 50px;
@@ -9,9 +10,16 @@
 	width: 50%;
 	margin: auto;
 	height: 1000px;
-	background-color: #ccccb3;
+	background-color: #ffffff;
 	border-radius: 30px;
 	
-	
+
+}
+.bodystyle{
+	background-color: #ff4d4d;
+}
+.asidebox{
+	background-color: #ffffff;
+	width: 25%
 
 }
