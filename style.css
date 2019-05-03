@@ -1,0 +1,24 @@
+.colorstyle{
+	background-color: #ff0033;
+	color: black;
+}
+.headerimg{
+	max-width: 50px;
+	max-height: 50px;
+}
+.nyhetsflode{
+	width: 50%;
+	/* margin: auto; */
+	height: 1000px;
+	background-color: #ffffff;
+	border-radius: 30px;
+	padding: 20px; /* la till denna den för att få samma padding som containern gav */
+
+}
+.bodystyle{
+	background-color: #ff4d4d;
+}
+.asidebox{
+	background-color: #ffffff;
+	width: 50%
+}
