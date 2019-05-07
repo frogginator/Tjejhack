@@ -1,0 +1,20 @@
+.colorstyle{
+	background-color: #ff0033;
+	color: black;
+}
+
+.nyhetsflode{
+	height: 1000px;
+	background-color: #ffffff;
+
+}
+
+.asidebox{
+	background-color: red;
+	color: white;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.bild{
+	width: 75%;
+}
