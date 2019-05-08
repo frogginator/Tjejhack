@@ -4,9 +4,7 @@
 }
 
 .nyhetsflode{
-	height: 1000px;
 	background-color: #ffffff;
-
 }
 
 .asidebox{
@@ -14,7 +12,29 @@
 	color: white;
 	padding-top: 25px;
 	padding-bottom: 25px;
+	border-radius: 30px;
 }
 .bild{
-	width: 75%;
+	width: 80%;
+	height: 50%;
+}
+.top{
+	background-color: #ff0033;
+}
+.spancolor{
+	color: white;
+	font-size: 100px;
+}
+.tjejhackbild{
+	width: 200px;
+	height: 200px;
+}
+.quizstyle{
+	background-color: #ff0033; 
+	border-radius: 50px;
+	color: white; 
+	width: 50%;
+}
+.quizpadding{
+	padding-left: 50px;
 }

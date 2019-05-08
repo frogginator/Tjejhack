@@ -11,8 +11,10 @@
 <title>Tjejhack</title>
   </head>
   <body>
-  
-  <h1>Tjejhack</h1>
+  <div class="top">
+  <img src="tjejhackikon.jpg" class="tjejhackbild">
+  </div>
+
   <header>
   <body>
    <nav class="navbar navbar-expand-lg navbar-dark colorstyle">
@@ -22,7 +24,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Hem <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="index.html">Hem <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link active" href="#">Bildgalleri</a>
       <a class="nav-item nav-link active" href="#">Om Tjejhack</a>
       <a class="nav-item nav-link active" href="#">Kontaktinformation</a>
@@ -32,25 +34,34 @@
 </header>
 
     <div class="row">
-    <div class="col-3">
-      1 of 3
-    </div>
-    <div class="col-6">
+    <div class="col-8">
        <article>
-  <div class="nyhetsflode colorstyle">
-      <h1>Python quiz</h1>
-      <img src="img/1.jpg" id="stad" class="bild">
-    <form name="myForm" onsubmit="rattSvar()" method="post"> 
+       <h1>Nyheter!</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a aliquet purus. Aliquam tempor euismod augue et molestie. Proin sed velit massa. Aliquam iaculis nulla eu bibendum dictum. Nullam vestibulum pharetra neque, id congue nulla hendrerit sed. In vehicula, augue a consequat pharetra, dolor ex molestie lectus, in commodo nisl risus ac est. Vivamus magna augue, euismod ac scelerisque et, cursus sit amet odio. Integer ullamcorper dignissim ipsum non auctor.
+
+Curabitur ultrices id ligula at rutrum. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc dapibus sapien sit amet erat tempus, at lacinia nibh cursus. Nullam pharetra pretium molestie. Ut et felis accumsan, feugiat enim quis, placerat felis. Vivamus mollis elit sapien. Etiam volutpat tincidunt magna, sit amet fermentum turpis sollicitudin sit amet. Aenean luctus sapien ut sem dignissim pharetra. Pellentesque fringilla libero ultrices mauris finibus, vel euismod velit vulputate. Maecenas ullamcorper urna purus, at elementum purus consequat ac. In ut velit a arcu laoreet imperdiet. Proin vehicula magna tortor, eget malesuada mauris placerat vitae. Morbi lacinia, urna et convallis eleifend, leo ipsum consequat ante, et lacinia mi elit id felis. Sed feugiat laoreet magna, non faucibus turpis. Aliquam est ligula, faucibus a accumsan placerat, rutrum laoreet orci.
+
+Pellentesque malesuada lectus a urna ultricies, volutpat vulputate metus sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla nec nibh quis quam cursus pharetra sit amet quis massa. Etiam lorem magna, finibus id est vel, convallis rutrum turpis. Fusce gravida sit amet felis sed dictum. Cras elementum rhoncus orci, non rhoncus erat finibus nec. Praesent eu quam ultrices, posuere nisl vel, tempor justo.
+
+Donec maximus magna sed laoreet iaculis. In tincidunt risus ac varius gravida. Vivamus vestibulum tellus vel pharetra dictum. Nulla aliquam porttitor sapien, nec blandit leo. Praesent quis libero dolor. Aenean ultrices metus sagittis sodales congue. Nullam vel erat metus. Sed placerat aliquam purus. Proin at commodo leo, sodales vestibulum lacus. Aenean a neque est. Quisque nec sagittis leo. Sed ac erat nec sapien dictum porta at eget ex. Nam metus est, auctor id sem et, bibendum luctus massa. Aliquam mattis arcu augue, non facilisis nibh sollicitudin non.
+
+Cras metus turpis, sodales nec rutrum vel, dignissim vel dolor. Vivamus nibh est, ultricies facilisis dui eu, eleifend vehicula turpis. Fusce placerat, mi quis eleifend blandit, sapien tellus iaculis lectus, ac tempor orci dui id orci. Maecenas sollicitudin vulputate orci, et pretium est ultricies ac. Sed gravida diam eu lectus bibendum fermentum. Maecenas blandit tempor velit sit amet viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam ut congue quam, vitae efficitur turpis. Cras ultrices commodo enim et dignissim. Etiam tempor nec sapien a consectetur. Phasellus efficitur erat lectus, eget pulvinar ex ultrices nec. Mauris velit turpis, congue id neque nec, hendrerit sagittis enim. Cras consectetur rhoncus augue, at pulvinar justo condimentum id.</p>
+  <div class="nyhetsflode">
+  <div class="quizstyle">
+      <h1 class="quizpadding">Python quiz</h1>
+      <img src="img/1.jpg" id="stad" class="bild quizpadding">
+    <form name="myForm" onsubmit="rattSvar()" method="post" class="quizpadding"> 
       <input type="text" name="svar">
       <input type="submit" value="Submit" onclick="bildByte()" id="knapp">
      </form>
 
-    <p>Svara 1, x eller 2</p>
+    <p class="quizpadding">Svara 1, x eller 2</p>
 
-    <p id="rätt"> rätta svar: 0/10 </p> <h2 id="färdig"> <h2>
+    <p id="rätt"class="quizpadding"> rätta svar: 0/10 </p> <h2 id="färdig"> <h2>
+    </div>
 </article>
     </div>
-    <div class="col-3">
+    <div class="col-4">
     <aside>
   <div class="container asidebox">
     <h2>Ladda ner studiematerial</h2>
