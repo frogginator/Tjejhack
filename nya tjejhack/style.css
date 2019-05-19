@@ -29,7 +29,7 @@
 	width: 200px;
 	height: 200px;
 }
-.quizstyle{
+.quizstye{
 	background-color: #ff0033; 
 	border-radius: 50px;
 	color: white; 
@@ -37,4 +37,7 @@
 }
 .quizpadding{
 	padding-left: 50px;
+}
+.backgroundcolor{
+	background-color: #f2f2f2;
 }
