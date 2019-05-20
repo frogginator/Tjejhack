@@ -11,7 +11,7 @@
 <title>Tjejhack</title>
   </head>
   <body class="backgroundcolor">
-  <div class="top">
+  <div class="colorstyle">
   <img src="tjejhackikon.jpg" class="tjejhackbild">
   </div>
 
@@ -28,7 +28,7 @@
       <a class="nav-item nav-link active" href="Bildgalleri.html">Bildgalleri</a>
       <a class="nav-item nav-link active" href="omtjejhack.html">Om Tjejhack</a>
       <a class="nav-item nav-link active" href="Kontaktinfo.html">Kontaktinformation</a>
-      <a class="nav-item nav-link active" href="Kontaktinfo.html">Ladda ner studiematerial</a>
+      <a class="nav-item nav-link active laddanerknapp" style="color: #ff0033;" href="studiematerial.txt" download>Ladda ner studiematerial</a>
     </div>
   </div>
 </nav>
@@ -36,7 +36,7 @@
 
     <div class="row">
     <div class="col-8">
-       <article>
+       <article class="articlepadding">
        <h1>Nyheter!</h1>
        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a aliquet purus. Aliquam tempor euismod augue et molestie. Proin sed velit massa. Aliquam iaculis nulla eu bibendum dictum. Nullam vestibulum pharetra neque, id congue nulla hendrerit sed. In vehicula, augue a consequat pharetra, dolor ex molestie lectus, in commodo nisl risus ac est. Vivamus magna augue, euismod ac scelerisque et, cursus sit amet odio. Integer ullamcorper dignissim ipsum non auctor.
 
@@ -47,29 +47,44 @@ Pellentesque malesuada lectus a urna ultricies, volutpat vulputate metus sagitti
 Donec maximus magna sed laoreet iaculis. In tincidunt risus ac varius gravida. Vivamus vestibulum tellus vel pharetra dictum. Nulla aliquam porttitor sapien, nec blandit leo. Praesent quis libero dolor. Aenean ultrices metus sagittis sodales congue. Nullam vel erat metus. Sed placerat aliquam purus. Proin at commodo leo, sodales vestibulum lacus. Aenean a neque est. Quisque nec sagittis leo. Sed ac erat nec sapien dictum porta at eget ex. Nam metus est, auctor id sem et, bibendum luctus massa. Aliquam mattis arcu augue, non facilisis nibh sollicitudin non.
 
 Cras metus turpis, sodales nec rutrum vel, dignissim vel dolor. Vivamus nibh est, ultricies facilisis dui eu, eleifend vehicula turpis. Fusce placerat, mi quis eleifend blandit, sapien tellus iaculis lectus, ac tempor orci dui id orci. Maecenas sollicitudin vulputate orci, et pretium est ultricies ac. Sed gravida diam eu lectus bibendum fermentum. Maecenas blandit tempor velit sit amet viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam ut congue quam, vitae efficitur turpis. Cras ultrices commodo enim et dignissim. Etiam tempor nec sapien a consectetur. Phasellus efficitur erat lectus, eget pulvinar ex ultrices nec. Mauris velit turpis, congue id neque nec, hendrerit sagittis enim. Cras consectetur rhoncus augue, at pulvinar justo condimentum id.</p>
-  <div class="nyhetsflode">
   <div class="quizstyle">
-      <h1 class="quizpadding">Python quiz</h1>
-      <img src="img/1.jpg" id="stad" class="bild quizpadding">
-    <form name="myForm" onsubmit="rattSvar()" method="post" class="quizpadding"> 
+      <h1>Python quiz</h1>
+      <img src="img/1.jpg" id="stad" class="bild">
+    <form name="myForm" onsubmit="rattSvar()" method="post"> 
       <input type="text" name="svar">
       <input type="submit" value="Submit" onclick="bildByte()" id="knapp">
      </form>
 
-    <p class="quizpadding">Svara 1, x eller 2</p>
+    <p >Svara 1, x eller 2</p>
 
-    <p id="rätt"class="quizpadding"> rätta svar: 0/10 </p> <h2 id="färdig"> <h2>
-    </div>
+    <p id="rätt"> rätta svar: 0/10 </p> <h2 id="färdig"> <h2>
+ 
 </article>
-    </div>
+</div>
+
     <div class="col-4">
     <aside>
-  <div class="container asidebox">
-    <h2>Ladda ner studiematerial</h2>
-    </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8877.421245339248!2d15.2727481!3d56.202819!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe929fb8182a0b18d!2sKnut+Hahnsskolan!5e0!3m2!1ssv!2sdk!4v1558294239503!5m2!1ssv!2sdk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <h1>Nedräkning till nästa Tjejhack!</h1>
+	<h2 id="nedräkning"></h2>
 	</aside>
     </div>
+	</div>
+
+    <footer class="footer">
+    	<div class="container">
+  <div class="row">
+    <div class="col-4">
+      <p>Copyright Fredik Johansson©</p>
+    </div>
+    <div class="col-4">
+      Copyright Fredik Johansson©
+    </div>
+    <div class="col-4">
+      One of three columns
+    </div>
+  </div>
+</div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

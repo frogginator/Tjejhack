@@ -1,1 +1,4 @@
-gridsystem funkar intes
+Gridsystem funkar inte.
+widthen är längre än 100%.
+"color: #ff0033;" ändrar inte text färgen i css på ladda ner studiematerial knapp.
+Får inte download knapp att fungera.

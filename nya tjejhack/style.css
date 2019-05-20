@@ -1,25 +1,13 @@
 .colorstyle{
 	background-color: #ff0033;
-	color: black;
-}
+}	
 
-.nyhetsflode{
-	background-color: #ffffff;
-}
-
-.asidebox{
-	background-color: red;
-	color: white;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	border-radius: 30px;
-}
 .bild{
-	width: 80%;
-	height: 50%;
-}
-.top{
-	background-color: #ff0033;
+	max-width: 75%;
+	max-height: 75%;
+	min-width: 100px;
+	min-height: 100px;
+	padding-bottom: 50px;
 }
 .spancolor{
 	color: white;
@@ -29,15 +17,28 @@
 	width: 200px;
 	height: 200px;
 }
-.quizstye{
-	background-color: #ff0033; 
-	border-radius: 50px;
-	color: white; 
-	width: 50%;
-}
-.quizpadding{
-	padding-left: 50px;
-}
+
 .backgroundcolor{
 	background-color: #f2f2f2;
+}
+
+.articlepadding{
+	padding-left: 25px;
+}
+.laddanerknapp{
+background-color: white; 
+color: #ff0033;
+border-radius: 5px; 
+font-weight: bold;
+
+}
+.footer{
+	width: 100%;
+ 	height: 200px;
+ 	background-color: #ff0033;
+ 	color: white;
+ 	font-size: 20px;
+ 	left: 0;
+ 	top: 0;
+ 	
 }
