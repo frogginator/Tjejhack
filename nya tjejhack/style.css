@@ -17,6 +17,10 @@
 	width: 200px;
 	height: 200px;
 }
+.knuthahnbild{
+	width: 150px;
+	height: 150px;
+}
 
 .backgroundcolor{
 	background-color: #f2f2f2;
@@ -41,4 +45,13 @@ font-weight: bold;
  	left: 0;
  	top: 0;
  	
+}
+html{
+	overflow-x: hidden;
+}
+.nedrakningen{
+	font-size: 5vmin;
+}
+.loggrid{
+	justify-content: space-around;
 }
