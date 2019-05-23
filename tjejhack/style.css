@@ -1,25 +1,82 @@
-.colorstyle{
-	background-color: #ff0033;
-	color: black;
+ .colorstyle{
+	background-color: #336699; /* #ff0033 */
+}	
+
+.bild{
+	max-width: 75%;
+	max-height: 75%;
+	min-width: 100px;
+	min-height: 100px;
+	padding-bottom: 50px;
 }
-.headerimg{
-	max-width: 50px;
-	max-height: 50px;
+.tjejhackbild{
+	width: 200px;
+	height: 200px;
+}
+.knuthahnbild{
+	width: 150px;
+	height: 150px;
+}
+
+.backgroundcolor{
+	background-color: #f2f2f2;
+}
+
+.articlepadding{
+	padding-left: 25px;
+}
+.laddanerknapp{
+background-color: white; 
+color: #336699 !important;
+border-radius: 5px; 
+font-weight: bold;
+}
+.tips{
+	color: white !important;
+	margin-top: 50px;
+	padding: 20px;
+	border-radius: 50px;
+	font-size: 3vmin;
+	font-weight: bold;
+}
+
+
+.footer{
+	width: 100%;
+ 	height: 200px;
+ 	color: white;
+ 	font-size: 20px;
+ 	left: 0;
+ 	top: 0;
+ 	
+}
+html{
+	overflow-x: hidden;
+}
+.nedrakningen{
+	font-size: 4vmin;
+}
+
+.nedrakningsram{
+	border-bottom-left-radius: 50px;
+	color: white;	
+	padding-left: 33px;
+	padding-bottom: 30px;
+}
+
+.knuthahnpadding{
+	padding-top: 50px;
+}
+
+.navbartext:hover{
+    color:grey;
+}
+.bildgalleribild{
+  width: 100%;
+  height: auto;
 }
 .nyhetsflode{
-	width: 50%;
-	margin: auto;
-	height: 1000px;
-	background-color: #ffffff;
-	border-radius: 30px;
-	
-
-}
-.bodystyle{
-	background-color: #ff4d4d;
-}
-.asidebox{
-	background-color: #ffffff;
-	width: 25%
-
+color: white;
+padding: 20px;
+border-radius: 20px;
 }

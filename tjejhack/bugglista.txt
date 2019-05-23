@@ -1,0 +1,6 @@
+Gridsystem funkar inte.
+widthen är längre än 100%.
+"color: #ff0033;" ändrar inte text färgen i css på ladda ner studiematerial knapp.
+Får inte download knapp att fungera.
+Fackebook widget funkar inte som den ska
+kan inte ändra färg i länk utan style i HTML
