@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">	
+	<title>Tjejhack</title>
+</head>
+
+<body class="backgroundcolor"> <!--gör bakgrundsfärgen grå-->
+	<header>
+		<div class="row colorstyle">
+			<div class="col-auto mr-auto"> <!--Div som gör att bilderna i headern placera sig rätt-->
+				<div>
+					<img src="img/tjejhackikon.jpg" alt="..." class="tjejhackbild"> <!--Bild för tjejhack-->
+				</div>
+			</div>
+			<div class="col-auto mr-auto"><img src="img/tjejhacklogga.jpg" alt="..."> </div> <!--bild med tjejhack text-->
+			<div class="col-auto knuthahnpadding">
+				<img src="img/transknuthahn.png" class="knuthahnbild" alt="..."> <!--bild för knuthahnlogga-->
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark colorstyle"> <!--navbar inställningar-->
+			<a class="navbar-brand" href="index.html">Tjejhack</a> <!--tjejhack text och länk till landningssidan-->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav"> <!--navbar föremål-->
+					<a class="nav-item nav-link active" href="index.html"><span class="navbartext">Hem</span> <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link active" href="Bildgalleri.html"><span class="navbartext">Bildgalleri</span></a>
+					<a class="nav-item nav-link active" href="omtjejhack.html"><span class="navbartext">Om tjejhack</span></a>
+					<a class="nav-item nav-link active" href="Kontaktinfo.html"><span class="navbartext">Kontaktinformation</span></a>
+					<a class="nav-item nav-link active laddanerknapp" href="https://docs.google.com/document/d/1wHjENfKS35pxIJBCpY6p1pe8bxh9lJHSridFDkwG3x8/edit"><span class="navbartext">Ladda ner studiematerial</span></a> <!--länk till studiematerial-->
+				</div>
+			</div>
+		</nav>
+	</header>
+
+
+	<main> <!--börjar innehållet under headern-->
+		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel"> <!--skapar en karousell med bilder-->
+			<div class="carousel-inner">
+				<div class="carousel-item active carouselsize">
+					<img src="img/kodning.png" class="d-block w-100" alt="..."> 
+				</div>
+				<div class="carousel-item carouselsize">
+					<img src="img/programmeringbild.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item carouselsize">
+					<img src="img/python.jpg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		<div class="row"> <!-- ett gridsystem för att allt innehåll att vara i mitten-->
+			<div class="col-1">
+			</div>
+			<div class="col-10">
+
+				<div class="colorstyle nedrakningsram"> <!--skapar en nedräkning och designar den-->
+					<h1 class="nedrakningen">Nedräkning till nästa Tjejhack!</h1>
+					<h2 id="nedräkning" class="nedrakningen"> ...</h2>
+				</div>
+				<div class="nyhetsflode"> <!--nyhetsflöde-->
+					<h2>Nyheter!</h2>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum convallis magna, in condimentum mauris tristique ac. Mauris tristique efficitur efficitur. Cras posuere sapien a massa efficitur, a tristique ligula consectetur. Vivamus accumsan, dui maximus convallis porttitor, nibh nibh pharetra sem, quis convallis turpis ex non ligula. Proin mauris mauris, facilisis quis mi quis, porta suscipit odio. Phasellus eu felis aliquam, sodales lectus tincidunt, consectetur mi. Sed mollis, metus vitae accumsan tincidunt, eros tortor maximus ante, iaculis tempor ante erat a elit. Pellentesque finibus nulla ac vulputate efficitur. Nulla mattis neque semper, rhoncus lorem sollicitudin, faucibus urna. Nulla cursus eget sem et maximus. Sed vitae odio mattis quam feugiat molestie vehicula in est. Fusce sed sodales massa, a scelerisque nibh. Phasellus feugiat ultrices lacinia. Fusce elit sapien, sodales ac magna a, ullamcorper sodales urna. Proin consequat mattis erat, vel feugiat mi volutpat at. In ut lorem tellus.
+
+						Etiam in porttitor neque. Nunc consequat lorem ac gravida consectetur. Integer quis lacus facilisis, mattis enim posuere, tincidunt neque. Suspendisse et enim tincidunt, suscipit ex eget, ullamcorper turpis. Ut neque risus, auctor et lacus et, semper imperdiet diam. Maecenas nulla felis, cursus et enim id, egestas dapibus nisi. Curabitur pharetra sagittis purus, vulputate ultrices odio convallis ut. In in metus blandit, sodales purus nec, blandit nulla. Nulla facilisi. Vivamus dolor eros, vulputate quis lorem sit amet, dictum fringilla orci. Mauris egestas est nec efficitur suscipit. Pellentesque sed vulputate felis. Maecenas pulvinar at eros nec fermentum. Suspendisse porttitor elementum nisi non porttitor. Duis luctus nibh lorem, quis tempor turpis lacinia nec.
+
+						Ut malesuada tellus sem, eu pharetra arcu lobortis eget. Proin lacinia tellus eu nisl rhoncus eleifend sed sit amet tortor. Suspendisse ut vestibulum lacus. Fusce auctor consectetur nunc, congue varius tortor. Praesent consectetur rhoncus porttitor. Aliquam porttitor nec purus at tempus. Donec libero nibh, facilisis at commodo at, porta nec risus. Donec lobortis porttitor urna. Sed blandit quam ac tortor ultricies, rutrum luctus metus vulputate. Nulla laoreet est mattis orci pulvinar rhoncus. Vivamus ex leo, pellentesque sit amet imperdiet at, tincidunt non dui. Sed libero nibh, laoreet quis consectetur at, congue placerat tortor. Curabitur feugiat imperdiet sapien, vel gravida eros vehicula id. Donec dignissim justo vel ligula aliquet, sed bibendum turpis mattis. Sed facilisis congue arcu at eleifend. Duis id erat sollicitudin ligula suscipit consequat sed a purus.
+
+						Aenean feugiat luctus neque, ut fermentum neque. Donec sed nulla cursus, rhoncus ante vitae, tempor sapien. Sed posuere commodo lacus sed volutpat. Vestibulum volutpat tristique urna, porttitor sollicitudin nisi convallis vel. Donec at nisi ac justo tincidunt euismod. Nam pretium, felis nec porta porttitor, ante nisl fringilla lectus, sit amet pharetra quam leo id libero. Nulla consectetur mollis mi, sit amet venenatis nisl ultrices sit amet. Nunc suscipit diam purus, vitae ornare massa accumsan sit amet. Morbi maximus ex nec leo facilisis bibendum. Cras eu quam a justo fringilla scelerisque. Maecenas ullamcorper libero sit amet urna egestas, quis ornare sapien pulvinar. Vestibulum dictum condimentum tempus.<br></p>
+
+
+						
+						<div class="tips colorstyle"> <!-- Div som inehåller länk till tjejhack-->
+							<p> Vill du lära dig mer programmering?<br></p>
+							<a href="https://www.codecademy.com/" style="color: white;"><span class="navbartext" >Klicka här!</span></a>
+						</div>
+						<h3><br>Vad är tjejhack?<br></h3>
+						<p>Tjejhack Ronneby genomfördes första gången våren 2018 för alla tjejer som går årskurs sju på skolorna i Ronneby kommun. Det är elever som går Teknikprogrammet på Gymnasieskolan Knut Hahn som arrangerar tjejhacket. Syftet är att tjejer i lugn och ro ska få prova på att programmera. Planen är att tjejhack ska bli något vi genomför varje år.</p>
+						<h3>Vad tycker folk om tjejhack?</h3>
+						<p>"Det var kul och man lärde sig snabbt"<br>
+							"Det var kul och lära sig programera och rita olika saker"<br>
+							"Det var kul och man lärde sig rätt snabbt! :)"</p>
+							<div class="quizstyle"> <!--div för quizen-->
+								<h3>Python quiz</h3>
+								<p>Här kan du testa dina kunskaper i Python!</p>
+								<img src="img/1.jpg" id="stad" alt="..." class="bild"> <!--visar rätt bild för quizen-->
+								<form name="myForm" onsubmit="rattSvar()" method="post">  <!--kör javascript kommandot när man klickar submit knappen-->
+									<input type="text" name="svar"> <!--beskriver vad det är för svar man ska skriva-->
+									<input type="submit" value="Submit" onclick="bildByte()" id="knapp"> <!--beskriver vad som händer när man använder submit knappen-->
+								</form>
+
+								<p >Svara 1, x eller 2</p>
+
+								<p id="rätt"> rätta svar: 0/10 </p> <h2 id="färdig">. </h2> <!-- visar hur många rätt du har-->
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-1">
+				</div>
+			</main>
+			<footer class="footer colorstyle"> <!-- footern -->
+				<div class="container">
+					<div class="row"> <!-- gridsystem för att placera copyright tjejhack i mitten-->
+						<div class="col-4">
+
+						</div>
+						<div class="col-4">
+							Copyright Tjejhack©
+						</div>
+						<div class="col-4">
+
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<!-- Optional JavaScript -->
+			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+			<script src="js/scripts.js"></script>
+		</body>
+		</html>

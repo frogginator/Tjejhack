@@ -1,0 +1,86 @@
+ .colorstyle{
+	background-color: #E80C94; /*Väljer färgen på årets tjejhack */
+}	
+
+.bild{ /* gör quizbilden stor nog att läsa och responsiv*/
+	max-width: 75%;
+	max-height: 75%;
+	min-width: 100px;
+	min-height: 100px;
+	padding-bottom: 50px;
+}
+.tjejhackbild{ /* Anpassar storleken på tjejhack bilden i header*/
+	width: 200px;
+	height: 200px;
+}
+.knuthahnbild{ /* Anpasar storleken på knuthahn loggan i headern*/
+	width: 150px;
+	height: 150px;
+	margin-top: 50px;
+}
+
+.backgroundcolor{
+	background-color: #f2f2f2; /* gör bakgrundsfärgen i bodyn grå*/
+}
+.laddanerknapp{ /*fixar stilen på ladda ner studiematerial knappen */
+background-color: white; 
+color: #E80C94 !important;
+border-radius: 5px; 
+font-weight: bold;
+}
+.tips{ /* Designar tips delen*/
+	color: white !important;
+	padding: 20px;
+	border-radius: 50px;
+	font-size: 4vmin;
+	font-weight: bold;
+	margin: 10px;
+}
+
+
+.footer{ /* Fixar stilen på footern*/
+	width: 100%;
+ 	height: 200px;
+ 	color: white;
+ 	font-size: 20px;
+ 	left: 0;
+ 	top: 0;
+ 	
+}
+html{ /* Gör så att du inte kan scrolla åt sidan*/
+	overflow-x: hidden;
+}
+
+
+.nedrakningsram{ /* designar ramen till nerräkningen och texten i den*/
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	color: white;	
+	padding-left: 33px;
+	padding-bottom: 30px;
+	font-size: 4vmin;
+}
+
+
+
+.navbartext:hover{ /*att knappar byter färg när man har musen över dem*/
+    color:black;
+}
+.bildgalleribild{ /*fixar storleken på bilderna i bildgalleriet*/
+  width: 100%;
+  height: auto;
+}
+.nyhetsflode{ /*Gör att nyhetsflödet inte bli lika intryckt*/
+padding: 20px;
+}
+.omosspadding{ /* fixar så att om oss texten blir lättare att läsa*/
+	margin: 25px;
+	margin-right: 250px;
+}
+.carouselsize{
+	height: 500px;
+ }
+body{
+	font-family: 'Source Sans Pro', sans-serif; /* Fixar fonten för programmet*/
+
+}
